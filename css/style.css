@@ -1,0 +1,81 @@
+img {
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    height: 100px;
+    color: black;
+}
+
+.start {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    border-radius: 20px;
+    top: 150px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    background-color: sienna;
+    cursor: pointer;
+}
+
+.victory {
+    margin-left: 200px;
+}
+
+body {
+    margin: 0px;
+    background-image: url("../img/body.jpg");
+}
+
+.game {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+    min-height: 100%;
+    background-color: sienna;
+    display: flex;
+    flex-direction: column;
+}
+
+.ask {
+    width: 550px;
+    font-size: 40px;
+    direction: rtl;
+    text-align: center;
+    padding: 25px;
+}
+
+.opts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.answer {
+    margin: auto;
+
+    right: 0px;
+    left: 0px;
+    font-size: 37px;
+}
+
+.mistake {
+    background-color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
